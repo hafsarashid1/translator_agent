@@ -1,0 +1,67 @@
+🌍 AI Translator Agent (Gemini + Chainlit)
+
+An intelligent AI Translator Agent built with Google Gemini, Python, and Chainlit.
+It can translate between Urdu and English based on the user’s needs — just like chatting with a multilingual assistant!
+
+🚀 Features
+
+🔤 Translates between English ↔ Urdu
+
+🧠 Uses Google Gemini 2.0 Flash for accurate and context-aware translations
+
+💬 Built with Chainlit for a clean, interactive chat UI
+
+⚙️ Maintains conversation history for smooth interactions
+
+🔒 Keeps API keys secure using .env
+
+🧩 Tech Stack
+
+Python 3.10+
+
+Gemini API (Google Generative Language)
+
+Agents Framework
+
+Chainlit
+
+dotenv
+
+Install dependencies
+
+pip install -r requirements.txt
+
+
+Set up your environment variables
+Create a .env file and add:
+
+GEMINI_API_KEY=your_api_key_here
+
+
+Run the app
+
+chainlit run main.py
+
+💡 How It Works
+
+The app initializes a Gemini-powered agent that understands user queries.
+
+It detects the desired translation direction (Urdu ↔ English).
+
+Messages are managed through Chainlit’s session system for a chat-like experience.
+
+Responses are generated dynamically using Gemini’s reasoning capabilities.
+
+🔮 Future Enhancements
+
+🌐 Multi-language support (French, Arabic, Spanish, etc.)
+
+🗣️ Voice input & speech translation
+
+💾 Translation history and export options
+
+🧑‍💻 Author
+
+Hafsa Rashid
+🎓 Dietitian | 👩‍💻 AI Developer | ✍️ Copywriter
+🔗 https://www.linkedin.com/in/hafsarashid00/
