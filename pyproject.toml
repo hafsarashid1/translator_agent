@@ -1,11 +1,10 @@
 [project]
-name = "translator-agent"
+name = "poet-agent"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "chainlit>=2.7.2",
-    "openai-agents>=0.2.10",
+    "openai-agents>=0.3.3",
     "python-dotenv>=1.1.1",
 ]
